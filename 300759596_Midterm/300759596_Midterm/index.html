@@ -1,0 +1,375 @@
+﻿<!--Mohan Raj Nandagopal -300759596
+    Index.html
+
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>MohanRaj Nandagopal Midterm</title>
+    <!-- CSS SECTION -->
+    <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="Content/a.min.css" rel="stylesheet" />
+    <link href="css/mobile.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!--Home Section Starts-->
+    <div data-role="page" data-control-title="Home" id="home">
+        <div data-theme="a" data-role="header">
+            <h3>
+                Home
+            </h3>
+        </div>
+       
+        <div data-role="content">
+            <a href="#home" data-controltype="image">
+                <center>
+                    <div style="  height:120px; width:140px; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                        <img src="images/mohanlogo.png" />
+                    </div>
+                </center>
+
+            </a>
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="#home" data-transition="slidedown" data-theme="" data-icon="home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#survey" data-transition="slidedown" data-theme="" data-icon="star">
+                           Survey
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactme" data-transition="slidedown" data-theme="" data-icon="info">
+                            Contact me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+            <center>
+                <div data-controltype="image">
+
+                    <img src="images/ColourWheel.png" alt="image" >
+
+                </div>
+            </center>
+        </div>
+        <div data-theme="a" data-role="footer" data-position="fixed">
+            <h3>
+                CopyRight MohanRaj 2015
+            </h3>
+        </div>
+        </div>
+    <!--Home Section Ends-->
+    <!--Survey Section Starts-->
+    <div data-role="page" data-control-title="Survey" id="survey">
+        <div data-theme="a" data-role="header">
+            <a data-role="button" href="#home" class="ui-btn-right">
+                Back
+            </a>
+            <h3>
+                Survey
+            </h3>
+        </div>
+
+        <div data-role="content">
+            <a href="#home" data-controltype="image">
+                <center>
+                    <div style="  height:120px; width:140px; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                        <img src="images/mohanlogo.png" />
+                    </div>
+                </center>
+
+            </a>
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="#home" data-transition="slidedown" data-theme="" data-icon="home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#survey" data-transition="slidedown" data-theme="" data-icon="star">
+                            Survey
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactme" data-transition="slidedown" data-theme="" data-icon="info">
+                            Contact me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-controltype="textblock">
+            <p>
+                <b>
+                    Survey Questions
+                </b>
+            </p>
+        </div>
+        <!-- Suevery Questions are added as radio buttons -->
+        <center>
+            
+                <div data-role="fieldcontain" data-controltype="radiobuttons">
+
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <legend>
+                            1. You prefer to keep your appearance:
+                        </legend>
+                        <input id="radio1" name="rad1" value="Functional" data-theme="c" type="radio">
+                        <label for="radio1">
+                            Functional
+                        </label>
+                        <input id="radio2" name="rad1" value="Fashionable" data-theme="c" type="radio">
+                        <label for="radio2">
+                            Fashionable
+                        </label>
+                        <input id="radio3" name="rad1" value="Casual" data-theme="c" type="radio">
+                        <label for="radio3">
+                            Casual
+                        </label>
+                        <input id="radio4" name="rad1" value="Conservative" data-theme="c" type="radio">
+                        <label for="radio4">
+                            Conservative
+                        </label>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain" data-controltype="radiobuttons">
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <legend>
+                            2. What types of goals do you set for yourself?
+                        </legend>
+                        <input id="radio5" name="rad2" value="Challenging Goals" data-theme="c" type="radio">
+                        <label for="radio5">
+                            Challenging Goals
+                        </label>
+                        <input id="radio6" name="rad2" value="I don’t Set Goals" data-theme="c" type="radio">
+                        <label for="radio6">
+                            I don’t Set Goals
+                        </label>
+                        <input id="radio7" name="rad2" value="Short-­‐Term Goals" data-theme="c" type="radio">
+                        <label for="radio7">
+                            Short-­‐Term Goals
+                        </label>
+                        <input id="radio8" name="rad2" value="Long-­‐Term Goals" data-theme="c" type="radio">
+                        <label for="radio8">
+                            Long-­‐Term Goals
+                        </label>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain" data-controltype="radiobuttons">
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <legend>
+                            3. Your optimal work environment is:
+                        </legend>
+                        <input id="radio9" name="rad3" value="Busy &amp; Efficient" data-theme="c"
+                               type="radio">
+                        <label for="radio9">
+                            Busy &amp; Efficient
+                        </label>
+                        <input id="radio10" name="rad3" value="Stimulating &amp; Social" data-theme="c"
+                               type="radio">
+                        <label for="radio10">
+                            Stimulating &amp; Social
+                        </label>
+                        <input id="radio11" name="rad3" value="Relaxed &amp; Friendly" data-theme="c"
+                               type="radio">
+                        <label for="radio11">
+                            Relaxed &amp; Friendly
+                        </label>
+                        <input id="radio12" name="rad3" value="Structured &amp; Organized" data-theme="c"
+                               type="radio">
+                        <label for="radio12">
+                            Structured &amp; Organized
+                        </label>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain" data-controltype="radiobuttons">
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <legend>
+                            4. When given a high-­‐profile task you focus on:
+                        </legend>
+                        <input id="radio13" name="rad4" value="Getting the job done" data-theme="c"
+                               type="radio">
+                        <label for="radio13">
+                            Getting the job done
+                        </label>
+                        <input id="radio14" name="rad4" value="Networking with others" data-theme="c"
+                               type="radio">
+                        <label for="radio14">
+                            Networking with others
+                        </label>
+                        <input id="radio15" name="rad4" value="Maintaining relationships" data-theme="c"
+                               type="radio">
+                        <label for="radio15">
+                            Maintaining relationships
+                        </label>
+                        <input id="radio16" name="rad4" value="Following the Process" data-theme="c"
+                               type="radio">
+                        <label for="radio16">
+                            Following the Process
+                        </label>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain" data-controltype="radiobuttons">
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <legend>
+                            5. Which situation do you dislike the MOST?
+                        </legend>
+                        <input id="radio17" name="rad5" value="Losing control" data-theme="c" type="radio">
+                        <label for="radio17">
+                            Losing control
+                        </label>
+                        <input id="radio18" name="rad5" value="Being excluded" data-theme="c" type="radio">
+                        <label for="radio18">
+                            Being excluded
+                        </label>
+                        <input id="radio19" name="rad5" value="Being devalued" data-theme="c" type="radio">
+                        <label for="radio19">
+                            Being devalued
+                        </label>
+                        <input id="radio20" name="rad5" value="Being unprepared" data-theme="c" type="radio">
+                        <label for="radio20">
+                            Being unprepared
+                        </label>
+                    </fieldset>
+                </div>
+            <a href="#surveyresult" id="contactsub" class="ui-btn-a ui-btn" data-rel="popup">Submit</a>
+            
+</center>
+        
+        
+    </div>
+    
+ 
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            CopyRight MohanRaj 2015
+        </h3>
+    </div>
+    </div>
+    <!-- Contact Me section -->
+    <div data-role="page" data-control-title="contact me" id="contactme">
+        <div data-theme="a" data-role="header">
+            <a data-role="button" href="#home" class="ui-btn-right">
+                Back
+            </a>
+            <h3>
+                ContactMe
+            </h3>
+        </div>
+        <div data-role="content">
+            <a href="#home" data-controltype="image">
+                <center>
+                    <div style="  height:120px; width:140px; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                        <img src="images/mohanlogo.png" />
+                    </div>
+                </center>
+
+            </a>
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="#home" data-transition="slidedown" data-theme="" data-icon="home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#survey" data-transition="slidedown" data-theme="" data-icon="star">
+                            Survey
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactme" data-transition="slidedown" data-theme="" data-icon="info">
+                            Contact me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+            <div id="googlemapsjs3" class="google-map" style="width: 288px; height: 200px; margin-left: auto; margin-right: auto">
+            </div>
+            <form action="">
+                <div data-role="fieldcontain" data-controltype="textinput">
+                    <label for="textinput3">
+                        Name
+                    </label>
+                    <input name="" id="textinput3" placeholder="Please Enter your Name" value=""
+                           type="text">
+                </div>
+                <div data-role="fieldcontain" data-controltype="textinput">
+                    <label for="textinput4">
+                        Email Address
+                    </label>
+                    <input name="" id="textinput4" placeholder="Please Enter your Email address"
+                           value="" type="email">
+                </div>
+                <div data-role="fieldcontain" data-controltype="textinput">
+                    <label for="textinput4">
+                        Contact Number
+                    </label>
+                    <input name="" id="textinput4" placeholder="Please Enter your Email address"
+                           value="" type="number">
+                </div>
+                <div data-role="fieldcontain" data-controltype="textarea">
+                    <label for="textarea1">
+                        Message
+                    </label>
+                    <textarea name="" id="textarea1" placeholder="Please Enter your Message"></textarea>
+                </div>
+                <a href="#surveyresult" id="contactsub" class="ui-btn-a ui-btn" data-rel="popup" >Submit</a>
+            </form>
+        </div>
+        <div data-theme="a" data-role="footer" data-position="fixed">
+            <h3>
+                CopyRights MohanRaj 2015
+            </h3>
+        </div>
+    </div>
+  
+    <!--Survey Section Ends-->
+
+    <!--Dialog Page-->
+    <div data-role="page" data-dialog="true" id="surveyresult">
+        <div data-role="header">
+            <h1> Dialog Box!</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p id="res">The dialog box is different from a normal page, it is displayed on top of the current page and it will not span the entire width of the page. The dialog has also an icon of "X" in the header to close the box.</p>
+            <a href="#home">OK</a>
+        </div>
+
+        
+    </div>
+        <!--Dialog Page ends-->
+        <!-- JavaScript Section -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="Scripts/jquery-1.8.0.min.js"></script>
+        <script src="Scripts/jquery.mobile-1.4.5.min.js"></script>
+        <script src="Scripts/mobile.js"></script>
+        <script>
+            function result() {
+                $("#submit").click(function (e) {
+
+
+                    $("input[name*=rad]:checked").each(function () {
+                        alet
+                        $("#res").val = $(this).val();
+                    });
+                    $("#surveyresult").popup();
+
+                });
+            }
+        </script>
+</body>
+</html>
